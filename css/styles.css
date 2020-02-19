@@ -1,0 +1,309 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.flex {
+  display: flex;
+}
+
+.sect-1 {
+  padding: 30px 12% 230px 12%;
+  position: relative;
+}
+
+.sectOneBG {
+  position: absolute;
+  right: -250px;
+  top: -400px;
+  z-index: -1;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+nav {
+  margin-bottom: 100px;
+}
+
+nav ul li {
+  padding: 10px 20px;
+  margin: 0px 20px;
+}
+
+nav ol li {
+  padding: 10px 20px;
+}
+
+nav li:hover {
+  background-color: rgb(196, 196, 196);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#active {
+  background-color: rgb(196, 196, 196);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+header h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.header-1 {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-1 p {
+  line-height: 30px;
+  color: rgb(161, 161, 164);
+}
+
+.header-1 button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background: none;
+  font-size: 16px;
+}
+
+.header-1 button:hover {
+  background-color: rgb(196, 196, 196);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.header-2 {
+  width: 800px;
+  height: 350px;
+  background-color: rgb(196, 196, 196);
+}
+
+.sect-2 {
+  padding: 0px 12% 200px 12%;
+}
+
+.sect-2 h3 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.flex-brands {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-brands > li {
+  background-color: rgb(196, 196, 196);
+  width: 165px;
+  margin: 10px;
+  height: 75px;
+}
+
+.sect-3 {
+  position: relative;
+  padding: 0 12% 200px 12%;
+}
+
+.sect-3 img {
+  position: absolute;
+  top: -150px;
+  left: -300px;
+  z-index: -1;
+}
+
+.sect-3-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.art-1 > div {
+  margin: 30px;
+  background-color: rgb(196, 196, 196);
+  width: 550px;
+}
+
+.art-1 > div > div {
+  padding: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.art-1 > div > div > h2 {
+  font-size: 25px;
+  width: 300px;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.art-1 > div > div > h2 > p {
+  font-size: 15px;
+}
+
+.art-1 > div > div > div {
+  padding: 50px;
+  background-color: rgb(242, 242, 242);
+}
+
+.art-2 {
+  width: 500px;
+}
+
+.art-2 h2 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.art-2 p {
+  line-height: 30px;
+  color: rgb(161, 161, 164);
+}
+
+.sect-4 {
+  padding: 0px 12% 100px 12%;
+  position: relative;
+}
+
+.sect-4 img {
+  position: absolute;
+  right: -150px;
+  bottom: -250px;
+  z-index: -1;
+}
+
+.sect-4-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.art-3 h2 {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.art-3 {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+}
+
+.art-3 p {
+  line-height: 30px;
+  color: rgb(161, 161, 164);
+  margin: 20px 0;
+}
+
+.art-3 button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background: none;
+  font-size: 16px;
+}
+
+.art-4 {
+  width: 700px;
+  height: 350px;
+  background-color: rgb(196, 196, 196);
+}
+
+footer {
+  background-color: rgb(51, 51, 51);
+  font-size: 14px;
+}
+
+.foot-flex {
+  padding: 100px 12%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot-1 {
+  width: 350px;
+}
+
+.foot-1 > h3 {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.foot-1 > p {
+  color: rgb(140, 140, 140);
+  line-height: 20px;
+}
+
+.foot-1 > p > img {
+  margin-right: 10px;
+  margin-left: -5px;
+}
+
+.foot-2 ul {
+  margin: 0 60px;
+}
+
+.foot-2 ul li:first-child {
+  color: rgb(230, 230, 230);
+  margin-bottom: 20px;
+}
+
+.foot-2 li {
+  color: rgb(140, 140, 140);
+  line-height: 22px;
+}
+
+.foot-2 li:hover {
+  color: orange;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.foot-3 {
+  padding: 0px 12% 40px 12%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: rgb(140, 140, 140);
+  line-height: 25px;
+}
+
+.fa {
+  padding: 9px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa {
+  background: white;
+  color: black;
+}
